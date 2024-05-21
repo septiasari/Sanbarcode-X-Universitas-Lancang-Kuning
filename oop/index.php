@@ -14,7 +14,8 @@
 	echo "Name : " . $kodok->name . "<br>";
 	echo "legs : " . $kodok->legs . "<br>";
 	echo "cold blooded : " . $kodok->cold_blooded . "<br>";
-	echo "Jump : " . $kodok->jump() . "<br> <br>";
+	echo "Jump : " . $kodok->jump();
+	echo "<br> <br>";
 	
 	$sungokong = new Ape('kera sakti');
 	
